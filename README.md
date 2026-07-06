@@ -3,8 +3,8 @@
 <h1>Allan Sevilla</h1>
 
 <p>
-  <strong>CS @ Florida International University</strong> &nbsp;·&nbsp; Miami, FL<br/>
-  Building at the intersection of intelligent systems and low-level software engineering
+  <strong>BSA/AML Analyst & AI Automation Developer @ Santander Private Banking</strong> &nbsp;·&nbsp; Miami, FL<br/>
+  BS Computer Science, FIU (Cum Laude) &nbsp;·&nbsp; Building at the intersection of applied AI and financial-crime compliance
 </p>
 
 <a href="https://www.linkedin.com/in/allan-sevilla/">
@@ -21,25 +21,28 @@
 
 ## About Me
 
-I'm a Computer Science student at FIU with a focus on **machine learning, AI systems, and systems programming**. My work spans agentic AI pipelines, federated learning for fraud detection, deep learning classifiers, automated ML workflows, and OS-level concurrency in C.
+I'm a Computer Science graduate from FIU (Honors College, Cum Laude) working as a BSA/AML Analyst and the sole automation developer for the Transaction Monitoring Unit at Santander Private Banking, where I build **LLM-driven investigation and alert-triage pipelines** for financial crime detection.
 
-I enjoy building things that require both rigorous engineering fundamentals and cutting-edge AI — from Banker's Algorithm implementations to multi-agent graph-based retrieval systems.
+My work spans agentic AI pipelines, federated learning for fraud detection, deep learning classifiers, automated ML workflows, and OS-level concurrency in C. I enjoy building things that require both rigorous engineering fundamentals and cutting-edge AI — from Banker's Algorithm implementations to multi-agent, graph-based retrieval and investigation systems.
 
 ---
 
 ## Tech Stack
 
-**Languages** &nbsp; `Python` · `C` · `JavaScript` · `HTML/CSS`
+**Languages** &nbsp; `Python` · `C` · `SQL` · `VBA` · `Bash` · `JavaScript` · `HTML/CSS`
 
-**ML / AI** &nbsp; `TensorFlow` · `scikit-learn` · `LangGraph` · `OpenAI Gym` · `RAGAS` · `Ollama`
+**ML / AI** &nbsp; `LangGraph` · `LangChain` · `Anthropic API` · `Pydantic v2` · `TensorFlow` · `PyTorch` · `scikit-learn` · `OpenAI Gym` · `RAGAS` · `Ollama`
 
-**Databases & Infra** &nbsp; `Neo4j` · `ChromaDB` · `PostgreSQL` · `Redis` · `Streamlit` · `FastAPI`
+**Databases & Infra** &nbsp; `Neo4j` · `ChromaDB` · `PostgreSQL` · `Redis` · `Docker` · `AWS Lambda` · `Streamlit` · `FastAPI`
 
 **Tools & Environment** &nbsp; `Linux` · `Neovim` · `Hyprland` · `Git` · `Google Colab` · `uv`
 
 ---
 
 ## Featured Projects
+
+### Agentic AML Investigation Copilot &nbsp;·&nbsp; `Python` `LangGraph` `Neo4j`
+Agentic alert-triage system combining deterministic risk-tiering logic with LLM-generated case narratives (LangGraph, Pydantic v2, FastAPI, Neo4j, Anthropic API), validated against synthetic data with planted AML typologies like structuring and funnel accounts.
 
 ### [LifeSync](https://github.com/AllanSevilla05/Lifesync) &nbsp;·&nbsp; `JavaScript` `Python` `CSS`
 Full-stack AI-powered task management app with voice input. Built with a React frontend, FastAPI backend, PostgreSQL database, and local LLM integration via Ollama (Llama3). Users speak tasks naturally — the AI parses and structures them automatically.
@@ -51,15 +54,22 @@ End-to-end automated ML workflow with auto task detection (regression vs. classi
 Multi-agent financial analysis system built around a LangGraph-style architecture with composable agents, graphs, prompts, and services for graph-driven AI reasoning over financial data.
 
 ### [Bitcoin Fraud Detection — Federated Learning](https://github.com/AllanSevilla05/FER-ROSES-FINAL) &nbsp;·&nbsp; `HTML`
-Undergraduate research project (IDH4905) on Bitcoin fraud detection using multi-party federated prediction fusion. Explores privacy-preserving ML across distributed nodes without centralizing sensitive financial data.
+Undergraduate research project (ARCH Honors Program) on Bitcoin fraud detection using multi-party vertical federated learning with PU learning. Achieved 0.974 ROC AUC, matching a centralized oracle baseline while preserving institutional data privacy.
 
 ### [Portfolio Site](https://github.com/AllanSevilla05/AllanSevilla05.github.io)
 Personal portfolio — [allansevilla05.github.io](https://allansevilla05.github.io)
 
 ---
 
-## Academic Focus
+## Open Source
 
+- **SantanderAI/gen-fraud-graph** — Authored and merged a `StructuringGenerator` class implementing BSA structuring typologies into a bank-maintained synthetic fraud-graph generator (PR #17), with full test coverage and GPG-signed commits.
+
+---
+
+## Professional & Academic Focus
+
+- **Financial Crime & Compliance Automation** — LLM-based alert triage, case narrative generation, and transaction monitoring workflows in production
 - **Artificial Intelligence** — reinforcement learning (TD Learning, Q-Learning, SARSA), custom OpenAI Gym environments
 - **Deep Learning** — CNNs with TensorFlow, image classification for waste sorting
 - **Operating Systems** — concurrency, resource management, Banker's Algorithm in C, priority scheduling
